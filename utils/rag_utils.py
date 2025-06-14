@@ -1,4 +1,3 @@
-
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 import openai
@@ -21,11 +20,7 @@ def query_llama_with_groq(question):
 
     messages = [
         {"role": "system", "content": "You are a helpful legal assistant. Use the legal context to answer the user's question."},
-        {"role": "user", "content": f"Context:
-{context}
-
-Question:
-{question}"}
+        {"role": "user", "content": f"Context:\n{context}\n\nQuestion:\n{question}"}
     ]
 
     response = openai.ChatCompletion.create(
