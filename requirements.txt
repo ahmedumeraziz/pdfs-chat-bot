@@ -1,0 +1,6 @@
+
+streamlit
+streamlit-authenticator
+chromadb
+sentence-transformers
+PyPDF2
