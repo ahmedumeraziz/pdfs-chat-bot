@@ -1,0 +1,12 @@
+
+streamlit
+chromadb
+langchain
+python-dotenv
+PyPDF2
+openai
+groq
+llama-index
+tiktoken
+sentence-transformers
+streamlit-authenticator
