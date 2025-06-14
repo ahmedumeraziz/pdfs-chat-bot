@@ -4,3 +4,4 @@ streamlit-authenticator
 chromadb
 sentence-transformers
 PyPDF2
+openai
