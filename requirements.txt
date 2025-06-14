@@ -7,3 +7,4 @@ python-dotenv==1.0.1
 python-jose==3.3.0
 passlib==1.7.4
 sentence-transformers==2.7.0
+pypdf==4.2.0  # Important for PDF processing
