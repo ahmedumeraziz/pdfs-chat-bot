@@ -1,7 +1,9 @@
-
 streamlit
 streamlit-authenticator
-chromadb
 sentence-transformers
 PyPDF2
 openai
+protobuf==3.20.*
+chromadb==0.4.24
+opentelemetry-exporter-otlp==1.20.0
+python-dotenv
