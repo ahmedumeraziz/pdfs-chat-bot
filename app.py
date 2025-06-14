@@ -6,6 +6,9 @@ from database import initialize_vector_db, add_to_collection
 from rag_utils import process_pdf, get_rag_response
 from dotenv import load_dotenv
 
+# Fix for Streamlit environment
+os.environ["ALLOW_RESET"] = "TRUE"
+
 load_dotenv()
 
 # Initialize ChromaDB
